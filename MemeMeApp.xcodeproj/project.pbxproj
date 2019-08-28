@@ -14,6 +14,7 @@
 		7D4CBE3022B97558004E80F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4CBE2E22B97558004E80F1 /* LaunchScreen.storyboard */; };
 		7D4CBE3B22B97558004E80F1 /* MemeMeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4CBE3A22B97558004E80F1 /* MemeMeAppTests.swift */; };
 		7D4CBE4622B97558004E80F1 /* MemeMeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4CBE4522B97558004E80F1 /* MemeMeAppUITests.swift */; };
+		7D4CBE5422BA615D004E80F1 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4CBE5322BA615D004E80F1 /* Meme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7D4CBE4122B97558004E80F1 /* MemeMeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeMeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4CBE4522B97558004E80F1 /* MemeMeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMeAppUITests.swift; sourceTree = "<group>"; };
 		7D4CBE4722B97558004E80F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4CBE5322BA615D004E80F1 /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7D4CBE2C22B97558004E80F1 /* Assets.xcassets */,
 				7D4CBE2E22B97558004E80F1 /* LaunchScreen.storyboard */,
 				7D4CBE3122B97558004E80F1 /* Info.plist */,
+				7D4CBE5322BA615D004E80F1 /* Meme.swift */,
 			);
 			path = MemeMeApp;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4CBE5422BA615D004E80F1 /* Meme.swift in Sources */,
 				7D4CBE2822B97556004E80F1 /* ViewController.swift in Sources */,
 				7D4CBE2622B97556004E80F1 /* AppDelegate.swift in Sources */,
 			);
@@ -433,15 +437,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NRGEX6U4X3;
 				INFOPLIST_FILE = MemeMeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kzaracho.MemeMeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = py.com.roshka.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,15 +456,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NRGEX6U4X3;
 				INFOPLIST_FILE = MemeMeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kzaracho.MemeMeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = py.com.roshka.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
